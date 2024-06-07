@@ -1,0 +1,88 @@
+.fiverr-feature {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  /* background-color: #013914; */
+  color: white;
+}
+.fiverr-feature-container {
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px;
+}
+
+.left-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  em {
+    font-weight: 300;
+  }
+}
+.fiverr-search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+
+
+  button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: #1dbf73;
+    color: white;
+    cursor: pointer;
+  }
+
+
+  .fiverr-search-input{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+  }
+
+  input{
+    border: none;
+    outline: none;
+  }
+
+
+}
+
+.fiverr-popular{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    span{
+    }
+    button{
+        color: white;
+        background-color: transparent;
+        border: 1ps solid white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 14px;
+        cursor: pointer;
+
+    }
+    button:hover{
+        background-color: white;
+        color: black;
+    }
+
+}

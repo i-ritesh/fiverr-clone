@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    background: transparent;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #013914; */
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.container{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+.fiverr-logo{
+    font-size: 34px;
+    font-weight: bold;
+}
+.fiverr-logo-text{
+
+}
+.fiverr-logo-dot{
+    color: #1dbf73;
+}
+.fiverr-links{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-weight: 500;
+}
+button{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    &:hover{
+        background-color: #1dbf73;
+    }
+}
+hr{
+    width: 100%;
+    height: 0;
+    border: 0.3px solid rgb(228, 227, 227);
+}
+.nav-menu-items{
+    cursor: pointer;
+    padding: 10px 22px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    color: gray;
+}
+.change-navbar{
+    background-color: white;
+    color: gray;
+}

@@ -1,0 +1,32 @@
+.freelance{
+    padding: 40px;
+}
+.freelance-1 {
+    background-color: #446EE7;
+    background-image: url(https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 152px;
+  }
+.freelance-1-container {
+  
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+
+   
+.free-btn {
+  color: white;
+  width: 130px;
+  font-weight: 600;
+  background-color: #1DBF73;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #1DBF73;
+  border-radius: 6px;
+}
+
+  

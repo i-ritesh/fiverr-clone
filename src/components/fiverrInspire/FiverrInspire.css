@@ -1,0 +1,35 @@
+.fiverr-inspire-card{
+    width: 252px;
+    height: 344px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.fiverr-inspire-card-container{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    .fiverr-inspire-main-img{
+        img{
+            height: 237px;
+            width: 100%;
+        }
+
+    }
+    
+
+    .fiverr-inspire-info{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .fiverr-inspire-logo{
+            img{
+                border-radius: 50%;
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+}
+

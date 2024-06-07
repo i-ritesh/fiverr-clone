@@ -1,0 +1,20 @@
+.trust{
+    background-color: #fdfafa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.trust-container{
+    width: 760px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: lightgrey;
+    font-weight: 500px;
+
+    img{
+        height: 70px;
+        object-fit: contain;
+    }
+}

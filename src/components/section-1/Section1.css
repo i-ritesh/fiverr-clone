@@ -1,0 +1,14 @@
+.section1 {
+    background-size: cover;
+    background-position: center;
+    animation: imgChange 10s infinite;
+}
+
+@keyframes imgChange {
+    0% { background-image: url('./img/jenny-2x.jpg'); }
+    20% { background-image: url('./img/christina-2x.jpg'); }
+    40% { background-image: url('./img/jordan-2x.jpg'); }
+    60% { background-image: url('./img/scarlett-2x.jpg'); }
+    80% { background-image: url('./img/colin-2x.jpg'); }
+    100% { background-image: url('./img/jenny-2x.jpg'); }
+}

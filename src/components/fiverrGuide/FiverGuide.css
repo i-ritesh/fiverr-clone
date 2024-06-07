@@ -1,0 +1,31 @@
+.fiverr-guide-card{
+    width: 426px;
+    height: 344px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.fiverr-guide-card-container{
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+
+    margin: 30px;
+    .fiverr-guide-guide-img{
+        img{
+            height: 293px;
+            width: max-content;
+        }
+
+    }
+    
+
+    .fiverr-guide-info{
+       
+        .fiverr-guide-title{
+            margin-top: 10px;
+        }
+       
+    }
+}
+
