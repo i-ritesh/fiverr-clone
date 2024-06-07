@@ -5,10 +5,11 @@
 }
 
 @keyframes imgChange {
-    0% { background-image: url('./img/jenny-2x.jpg'); }
-    20% { background-image: url('./img/christina-2x.jpg'); }
-    40% { background-image: url('./img/jordan-2x.jpg'); }
-    60% { background-image: url('./img/scarlett-2x.jpg'); }
-    80% { background-image: url('./img/colin-2x.jpg'); }
-    100% { background-image: url('./img/jenny-2x.jpg'); }
+    0% { background-image: url('https://i.ibb.co/xfY36LY/christina-2x.jpg'); }
+    20% { background-image: url('https://i.ibb.co/CbCt3gy/colin-2x.jpg'); }
+    40% { background-image: url('https://i.ibb.co/LtJ0nFf/jenny-2x.jpg'); }
+    60% { background-image: url('https://i.ibb.co/zRcKYJ5/jordan-2x.jpg'); }
+    80% { background-image: url('https://i.ibb.co/StR5YCb/scarlett-2x.jpg'); }
+    100% { background-image: url('https://i.ibb.co/xfY36LY/christina-2x.jpg'); }
 }
+
